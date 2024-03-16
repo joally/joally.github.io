@@ -1,0 +1,192 @@
+
+*{
+    margin: 0;
+    padding: 0%;
+     box-sizing: border-box;
+}
+    
+
+
+body{
+    width: 100%;
+    height: calc(100vh );
+    background-image: url(/images/background.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    
+    
+    
+} 
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+   background: darkslategray;
+   align-items: center;
+}
+.logo{
+    width: 90px;
+    height: fit-content;
+    float: left;
+  
+  
+
+}
+.navbar-links ul{
+    margin: 0;
+    padding: 0;
+    display:flex;
+
+}
+.navbar-links li{
+    list-style: none;
+
+}
+.navbar-links li a{
+    text-decoration: none;
+    color: #f1ead8;
+    padding: 1rem;
+    display: block;
+    text: size 16px;
+}
+.navbar-links li:hover{
+    cursor: pointer;
+    
+}
+
+    
+.toggle-button{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: ;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggle-button.bar{
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+    
+
+
+
+.footer{
+    margin-top: 150px;
+    width: 100%;
+    padding: 50px 10%;
+   background: #333;
+    color: #f1ead8;
+    display: flex;
+    position: absolute;
+    bottom: 0%;
+}
+.footer div{
+    text-align: center;
+}
+.col-2{
+    flex-grow: 1;
+
+}
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+
+}
+h3:hover{
+    cursor: pointer;
+    
+    text-transform: uppercase;
+}
+
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 10px;
+    
+    
+    
+}
+form input{
+    width: 300px;
+    height: 45px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    outline: none;
+    border: none;
+}
+form button{
+    background: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 30px;
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.social-icons{
+    margin-top: 30px;
+}
+.img{
+    font-size: 40px;
+}
+
+    
+   
+   
+
+
+
+h3:hover{
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+   
+   
+    
+
+   
+
+   
+ 
+  
+ 
+ 
+
+
+ 
+    
+    
+
+
+
+    
+   
+   
+
+
+
+
+    
+   
+
+  
+
+
+
+
